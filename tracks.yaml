@@ -43,9 +43,10 @@ tracks:
   lyrical:
     actions: *id001
     devel_branch: main
+    last_version: 1.3.0
     name: robotis_interfaces
     patches: null
-    release_inc: 0
+    release_inc: '1'
     release_repo_url: null
     release_tag: :{version}
     ros_distro: lyrical
