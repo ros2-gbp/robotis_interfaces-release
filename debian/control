@@ -1,0 +1,12 @@
+Source: ros-lyrical-robotis-interfaces
+Section: misc
+Priority: optional
+Maintainer: "Pyo" <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-builtin-interfaces, ros-lyrical-geometry-msgs, ros-lyrical-rosidl-default-generators, ros-lyrical-std-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace, ros-lyrical-rosidl-typesupport-fastrtps-c, ros-lyrical-rosidl-typesupport-fastrtps-cpp
+Homepage: https://index.ros.org/p/robotis_interfaces/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-robotis-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-builtin-interfaces, ros-lyrical-geometry-msgs, ros-lyrical-rosidl-default-runtime, ros-lyrical-std-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Description: Custom interfaces for ROBOTIS Physical AI Lineup.
